@@ -2,11 +2,6 @@
 
 by 108207442
 
-[製作筆記](https://www.notion.so/2856a13185334fc199f1ef685ad61125)
-
-[部署筆記](https://www.notion.so/7e75c76b146f40cfbac613c495b42c65)
-
-[程式第二階段内容](https://www.notion.so/366f23483339475db3d39bfab1d3486b)
 
 ---
 
