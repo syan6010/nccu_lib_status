@@ -1,4 +1,3 @@
-# nccu_lib_status
 # LINEBOT 圖書館狀態回報機器人
 
 by 108207442
