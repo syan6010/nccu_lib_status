@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+from passwordKey import MY_LINE_CHANNEL_ACCESS_TOKEN, MY_LINE_CHANNEL_SECRET
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +28,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     # 這邊每次在ngrok改變網址的時候都要重新加入（注意這邊不需要加入https://）
-    "127.0.0.1"
+    # "127.0.0.1"
+    '*'
 ]
 
 
@@ -55,9 +57,9 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mylinebot.urls'
 
-LINE_CHANNEL_ACCESS_TOKEN = '記得填入自己賬戶的資訊'
+LINE_CHANNEL_ACCESS_TOKEN = MY_LINE_CHANNEL_ACCESS_TOKEN
  
-LINE_CHANNEL_SECRET = '記得填入賬戶的資訊'
+LINE_CHANNEL_SECRET = MY_LINE_CHANNEL_SECRET
 
 TEMPLATES = [
     {
