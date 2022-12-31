@@ -47,9 +47,9 @@ def callback(request):
  
         for event in events:
             if isinstance(event, MessageEvent):
-                if event.message.text == "中正悅讀區及時座位數":
+                if event.message.text == "中正悅讀區即時座位數":
                     replyText(event, main_realtime)
-                elif event.message.text == "各分館及時今日入館人數":
+                elif event.message.text == "各分館即時今日入館人數":
                     replyText(event, nops_realtime)
                 elif event.message.text == "人流回報":
                     line_bot_api.reply_message(  
