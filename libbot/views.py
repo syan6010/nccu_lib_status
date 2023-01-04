@@ -102,7 +102,7 @@ def callback(request):
     
                         libObj.save()
                     else:
-                        if free_sum <= 5:
+                        if free_sum <= 4:
                             libObj.libRes_free+=1
                             replyText(event, "收到！！！很空閒")
                         else:
